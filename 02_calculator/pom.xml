@@ -11,7 +11,7 @@
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>hello-world</artifactId>
+    <artifactId>calculator</artifactId>
 
 
 </project>

@@ -4,14 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.examples.java</groupId>
-        <artifactId>java-examples-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>..</relativePath>
-    </parent>
+    <groupId>com.examples.java</groupId>
+    <artifactId>java-examples-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-    <artifactId>hello-world</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>01_helloworld</module>
+        <module>02_calculator</module>
+    </modules>
 
 
 </project>
