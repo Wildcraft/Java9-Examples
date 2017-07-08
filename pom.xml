@@ -13,6 +13,7 @@
     <modules>
         <module>01_helloworld</module>
         <module>02_calculator</module>
+        <module>03_math</module>
     </modules>
 
 

@@ -19,4 +19,11 @@ public class Calculator {
         }
         return a * b;
     }
+
+    public Integer square( Integer a ) {
+        if( a == null ) {
+            return 0;
+        }
+        return a * a;
+    }
 }

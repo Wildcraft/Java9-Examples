@@ -3,5 +3,5 @@
  *
  */
 module com.examples.java.calculator {
-
+    exports com.examples.java.calculator;
 }
